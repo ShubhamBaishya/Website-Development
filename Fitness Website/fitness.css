@@ -1,0 +1,117 @@
+/*CSS reset*/
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('background.jpg');
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.left{
+    /*border: 2px solid red;*/
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+.left div{
+    text-align: center;
+    
+}
+.left img{
+    width: 120px;
+}
+#shub{
+    padding: 500px;
+    height: fit-content;
+}
+.center{
+    /*position: sticky;*/
+    display: block;
+    width: 35%;
+    margin:12px auto;
+    /*border: 2px solid green;*/
+}
+.right{
+display: inline-block;
+    /*border: 2px solid blue;*/
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: rgb(67, 5, 236);
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: darkgreen;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    padding: 4px 14px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+.btn:hover{
+    background-color: gray;
+}
+.container{
+    border: 2px solid blue;
+    margin: 198px 35px;
+    padding: 51px;
+    width: 40%;
+    border-radius: 23px;
+}
+.container h1{
+    color: rebeccapurple;
+    
+}
+.bottum-btn{
+display: block;
+margin: 4px;
+padding: 1px;
+width:46%;
+}
+.bottum-btn:hover{
+background-color: gray;
+color: rgb(12, 12, 12);
+}
+.btnsubmit{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    padding: 4px 14px;
+    border-radius: 8px;
+    font-size: 12px;
+    width: 30%;
+    left: 2px;
+
+}
+.btnsubmit:hover{
+    background-color: gray;  
+}
+.form-group input{
+    text-align: center;
+    font-size: medium;
+    display: block;
+    width: 44%;
+    padding: 6px;
+    border-radius: 10px;
+    boarder:2px solid black;
+
+
+}
